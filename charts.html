@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Visualization</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Coffee Shop Analytics</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="charts.html">Data Visualization</a>
+      <a href="about.html">About Us</a>
+      <a href="create.html">Create</a>
+      <a href="read.html">Read</a>
+      <a href="update.html">Update</a>
+      <a href="delete.html">Delete</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Sales and Order Trends</h2>
+      <p>
+        These charts show sample data for best-selling drinks, order categories,
+        and weekly coffee shop sales.
+      </p>
+
+      <div class="chart-box">
+        <canvas id="barChart"></canvas>
+      </div>
+
+      <div class="chart-box">
+        <canvas id="pieChart"></canvas>
+      </div>
+
+      <div class="chart-box">
+        <canvas id="lineChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
